@@ -1,0 +1,11 @@
+{
+  "name": "mimic3tts",
+  "version": "0.1",
+  "slug": "mimic3tts",
+  "description": "Mimic3 TTS Server",
+  "startup": "system",
+  "boot": "auto",
+  "init": false,
+  "ports": {"59125/tcp": 59125},
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"]
+  }
