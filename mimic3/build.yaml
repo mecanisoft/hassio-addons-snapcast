@@ -1,6 +1,6 @@
 build_from:
-  aarch64: debian:bullseye
-  amd64: debian:bullseye
-  armhf: debian:bullseye
-  armv7: debian:bullseye
-  i386: debian:bullseye
+  aarch64: mycroftai/mimic3
+  amd64: mycroftai/mimic3
+  armhf: mycroftai/mimic3
+  armv7: mycroftai/mimic3
+  i386: mycroftai/mimic3
