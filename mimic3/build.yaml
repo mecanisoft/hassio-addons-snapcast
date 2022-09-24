@@ -1,0 +1,2 @@
+build_from:
+  armhf: mycroftai/mimic3:latest
