@@ -13,5 +13,5 @@ RUN mkdir -p /share/mycroft/mimic3
 COPY run.sh .
 RUN chmod a+x run.sh
 
-CMD [ "./run.sh" ]
+#CMD [ "./run.sh" ]
 
