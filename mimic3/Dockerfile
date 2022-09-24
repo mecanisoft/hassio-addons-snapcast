@@ -8,6 +8,10 @@ RUN cd mimic3 && ./install.sh
 
 EXPOSE 59125
 
+RUN mkdir -p /share/mycroft/mimic3
+RUN mkdir -p /root/.local/share/mycroft
+RUN ln -s /share/mycroft/mimic3 /root/.local/share/mycroft/mimic3
+
 COPY run.sh .
 RUN chmod a+x run.sh
 
