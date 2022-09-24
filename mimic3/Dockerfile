@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM debian:bullseye as build
 
 #RUN apt-get update && apt-get install -y libespeak-ng1 python3 python3-pip python3-venv git
 #RUN apt-get clean autoclean && apt-get autoremove --yes && rm -rf /var/lib/{apt,dpkg,cache,log}/
