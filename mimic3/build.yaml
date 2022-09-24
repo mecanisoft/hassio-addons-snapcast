@@ -1,6 +1,6 @@
 build_from:
-  aarch64: debian:bullseye
-  amd64: debian:bullseye
-  armhf: debian:bullseye
-  armv7: debian:bullseye
-  i386: debian:bullseye
+  aarch64: bullseye
+  amd64: bullseye
+  armhf: bullseye
+  armv7: bullseye
+  i386: bullseye
