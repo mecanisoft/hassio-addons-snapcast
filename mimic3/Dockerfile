@@ -1,10 +1,10 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-RUN apt-get update && apt-get install -y libespeak-ng1 python3 python3-pip python3-venv git
-RUN apt-get clean autoclean && apt-get autoremove --yes && rm -rf /var/lib/{apt,dpkg,cache,log}/
-RUN git clone --depth=1 https://github.com/MycroftAI/mimic3
-RUN cd mimic3 && ./install.sh
+#RUN apt-get update && apt-get install -y libespeak-ng1 python3 python3-pip python3-venv git
+#RUN apt-get clean autoclean && apt-get autoremove --yes && rm -rf /var/lib/{apt,dpkg,cache,log}/
+#RUN git clone --depth=1 https://github.com/MycroftAI/mimic3
+#RUN cd mimic3 && ./install.sh
 
 EXPOSE 59125
 COPY run.sh .
