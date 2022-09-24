@@ -7,8 +7,6 @@ RUN git clone --depth=1 https://github.com/MycroftAI/mimic3
 RUN cd mimic3 && ./install.sh
 
 EXPOSE 59125
-RUN mkdir -p /share/mycroft/mimic3
-#RUN ln -s /share/mycroft/mimic3 /home/mimic3/.local
 
 COPY run.sh .
 RUN chmod a+x run.sh
