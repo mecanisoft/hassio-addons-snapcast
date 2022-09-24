@@ -8,7 +8,7 @@ FROM $BUILD_FROM
 
 EXPOSE 59125
 RUN mkdir -p /share/mycroft/mimic3
-RUN ln -s /share/mycroft/mimic3 /home/mimic3/.local
+#RUN ln -s /share/mycroft/mimic3 /home/mimic3/.local
 
 COPY run.sh .
 RUN chmod a+x run.sh
