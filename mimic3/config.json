@@ -1,6 +1,6 @@
 {
   "name": "mimic3tts",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "mimic3tts",
   "description": "Mimic3 TTS Server",
   "startup": "system",
