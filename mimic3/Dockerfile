@@ -7,7 +7,7 @@ FROM $BUILD_FROM
 #RUN cd mimic3 && ./install.sh
 
 EXPOSE 59125
-COPY run.sh .
-RUN chmod a+x run.sh
+#COPY run.sh .
+#RUN chmod a+x run.sh
 
-CMD [ "./run.sh" ]
+#CMD [ "./run.sh" ]
