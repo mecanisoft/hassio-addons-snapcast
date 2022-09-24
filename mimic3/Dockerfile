@@ -3,4 +3,4 @@ FROM $BUILD_FROM
 
 EXPOSE 59125
 
-chmod a+rwX /home/mimic3/.local
+RUN chmod a+rwX /home/mimic3/.local
