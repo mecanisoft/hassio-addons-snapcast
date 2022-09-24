@@ -1,12 +1,12 @@
 {
   "name": "mimic3tts",
-  "version": "0.4",
+  "version": "0.2",
   "slug": "mimic3tts",
   "description": "Mimic3 TTS Server",
   "startup": "system",
   "boot": "auto",
   "init": false,
-  "map": "share:rw",
+  "map": ["share:rw"],
   "ports": {"59125/tcp": 59125},
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"]
   }
