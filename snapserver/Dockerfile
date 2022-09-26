@@ -4,8 +4,8 @@ FROM $BUILD_FROM
 # Add env
 ENV LANG C.UTF-8
 
-#Install snapcast et mpv
-RUN sed -i -e 's/v[[:digit:]]\..*\//edge\//g' /etc/apk/repositories && apk add --no-cache snapcast bash mpv
+#Install snapcast et mpv et vlc
+RUN sed -i -e 's/v[[:digit:]]\..*\//edge\//g' /etc/apk/repositories && apk add --no-cache snapcast bash mpv vlc
 
 
 
