@@ -10,6 +10,13 @@ EXPOSE 59125
 
 RUN mkdir -p /root/.local/share/mycroft/mimic3
 
+RUN searchrate="sample_rate: int = 22050"
+RUN replacerate="sample_rate: int = 44100"
+RUN sed -i "s/$searchrate/$replacerate/" /mimic3/micmic3_tts/config.py
+RUN searchchan="channels: int = 1"
+RUN replacechan="channels: int = 2"
+RUN sed -i "s/$searchchan/$replacechan/" /mimic3/micmic3_tts/config.py
+
 COPY run.sh .
 RUN chmod a+x run.sh
 
