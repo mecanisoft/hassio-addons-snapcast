@@ -1,7 +1,8 @@
 #!/bin/bash
 
 file1="/mimic3/opentts_abc/__init__.py"
-file2/mimic3/mimic3_http/synthesis.py
+file2="/mimic3/mimic3_http/synthesis.py"
+
 searchrate="wav_file.setframerate(22050)"
 replacerate="wav_file.setframerate(44100)"
 sed -i "s/$searchrate/$replacerate/" $file1
