@@ -75,5 +75,4 @@ RUN set -ex \
  && chown -R nobody:nobody /var/www/wallabag
 
 EXPOSE 80
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["wallabag"]
+CMD [ "/run.sh" ]
