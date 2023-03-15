@@ -59,3 +59,4 @@ if [ "$COMMAND_ARG1" = "migrate" ]; then
 fi
 
 exec "$@"
+wallabag
