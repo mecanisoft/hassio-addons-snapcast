@@ -30,8 +30,6 @@ RUN set -ex \
       php81-mbstring \
       php81-openssl \
       php81-pecl-amqp \
-      php81-pdo_mysql \
-      php81-pdo_pgsql \
       php81-pdo_sqlite \
       php81-phar \
       php81-session \
