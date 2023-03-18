@@ -1,0 +1,12 @@
+{
+  "name": "wallabag",
+  "version": "0.1",
+  "slug": "wallabag",
+  "description": "Wallabag",
+  "startup": "system",
+  "boot": "auto",
+  "init": false,
+  "map": ["share:rw"],
+  "ports": {"80/tcp": 80},
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"]
+  }
