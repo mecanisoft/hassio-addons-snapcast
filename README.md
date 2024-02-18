@@ -1,4 +1,4 @@
-# Almostserious `HASS.IO` Repository
+# Based on Almostserious  `HASS.IO` Repository
 Hey!
 This is my Home Assistant's _Supervisor_ add-ons repository.
 
